@@ -684,7 +684,7 @@ ul.top-info li p.info-text {
 
 .header-one ul.navbar-nav > li {
   padding-left: 0;
-  padding-right: 30px;
+  padding-right: 60px;
 }
 
 @media (max-width: 991px) {
@@ -694,7 +694,7 @@ ul.top-info li p.info-text {
 }
 
 .header-one .logo-area {
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 .navbar-fixed {
@@ -736,7 +736,7 @@ ul.navbar-nav > li.active > a {
 /*-- Logo --*/
 .logo img {
   width: auto;
-  height: 35px;
+  height: 50px;
 }
 
 .header-two .logo img {
@@ -965,7 +965,7 @@ ul.navbar-nav > li > a {
   font-weight: 700 !important;
   text-transform: uppercase;
   letter-spacing: -.2px;
-  font-size: 14px;
+  font-size: 16px;
   margin: 0;
   line-height: 40px;
   padding: 30px 0;
