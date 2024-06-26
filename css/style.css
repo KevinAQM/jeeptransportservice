@@ -2467,12 +2467,12 @@ img.testimonial-thumb {
 
 /* Footer social */
 .footer-social {
-  margin-top: 15px;
+  margin-top: 0px;
 }
 
 .footer-social .widget-title {
   font-size: 14px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .footer-social ul {
@@ -2488,10 +2488,10 @@ img.testimonial-thumb {
 
 .footer-social ul li a i {
   display: block;
-  font-size: 16px;
+  font-size: 20px;
   color: #999;
   transition: 400ms;
-  padding: 10px 13px;
+  padding: 12px 15px;
 }
 
 .footer-social ul li:hover {
@@ -2501,7 +2501,7 @@ img.testimonial-thumb {
 /* Links */
 .footer-widget ul.list-arrow li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-  padding: 8px 0;
+  padding: 0px 0;
 }
 
 .footer-widget ul.list-arrow li:last-child {
@@ -2530,7 +2530,7 @@ img.testimonial-thumb {
 .copyright {
   background: #ffb600;
   color: #111;
-  padding: 25px 0;
+  padding: 15px 0;
   position: relative;
   z-index: 1;
   font-weight: 600;
@@ -2554,7 +2554,7 @@ img.testimonial-thumb {
 }
 
 #back-to-top {
-  right: 40px;
+  right: 6%;
   top: auto;
   z-index: 10;
   display: none;
@@ -2572,7 +2572,7 @@ img.testimonial-thumb {
 }
 
 #back-to-top.position-fixed {
-  bottom: 20px;
+  bottom: 10px;
 }
 
 #back-to-top .btn.btn-primary {
@@ -3499,3 +3499,31 @@ label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.btn-wsp {
+  width: 50px;
+  height: 50px;
+  line-height: 50px; /* Ajustar para centrar verticalmente */
+  position: fixed; /* Mantener el botón en una posición fija */
+  bottom: 60px;
+  right: 2.5%;
+  background: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px; /* Ajustar tamaño de fuente para centrar el icono */
+  box-shadow: 0px 1px 10px rgba(255, 182, 0, 0);
+  z-index: 100;
+  transition: all 300ms ease;
+}
+.btn-wsp:hover {
+  background: #20ba5a;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .btn-wsp {
+      width: 50px;
+      height: 50px;
+      line-height: 50px; /* Ajustar para centrar verticalmente */
+      font-size: 35px; /* Aumentar tamaño de fuente para icono más grande */
+  }
+}
