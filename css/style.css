@@ -631,7 +631,7 @@ ul.top-info li p.info-text {
 
 .top-social ul li a {
   color: #2c2c2c;
-  font-size: 14px;
+  font-size: 16px;
   transition: 400ms;
   padding: 9px 12px;
 }
@@ -694,7 +694,7 @@ ul.top-info li p.info-text {
 }
 
 .header-one .logo-area {
-  padding: 20px 0;
+  padding: 15px 0;
 }
 
 .navbar-fixed {
@@ -736,7 +736,7 @@ ul.navbar-nav > li.active > a {
 /*-- Logo --*/
 .logo img {
   width: auto;
-  height: 50px;
+  height: 60px;
 }
 
 .header-two .logo img {
@@ -2445,14 +2445,14 @@ img.testimonial-thumb {
 }
 
 .footer-main {
-  padding: 80px 0 60px;
+  padding: 50px 0 40px;
 }
 
 .footer .widget-title {
   font-size: 16px;
   font-weight: 700;
   position: relative;
-  margin: 0 0 30px;
+  margin: 0 0 20px;
   padding-left: 15px;
   text-transform: uppercase;
   color: #fff;
@@ -2461,8 +2461,9 @@ img.testimonial-thumb {
 
 /* Footer about us */
 .footer-logo {
-  margin-bottom: 25px;
-  max-height: 35px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  max-height: 70px;
 }
 
 /* Footer social */
@@ -2501,11 +2502,11 @@ img.testimonial-thumb {
 /* Links */
 .footer-widget ul.list-arrow li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-  padding: 0px 0;
+  padding: 2px 0;
 }
 
 .footer-widget ul.list-arrow li:last-child {
-  border-bottom: 0;
+  border-bottom: 0px;
 }
 
 .footer-widget ul.list-arrow li a,
@@ -2554,7 +2555,7 @@ img.testimonial-thumb {
 }
 
 #back-to-top {
-  right: 6%;
+  right: 7%;
   top: auto;
   z-index: 10;
   display: none;
@@ -3500,30 +3501,108 @@ label {
 
 /*# sourceMappingURL=style.css.map */
 
+.btn-wsp-container {
+  position: fixed; /* Mantener el contenedor en una posición fija */
+  bottom: 30px;
+  right: 2%;
+  display: flex;
+  align-items: center;
+}
+
 .btn-wsp {
-  width: 50px;
-  height: 50px;
-  line-height: 50px; /* Ajustar para centrar verticalmente */
-  position: fixed; /* Mantener el botón en una posición fija */
-  bottom: 60px;
-  right: 2.5%;
+  width: 60px;
+  height: 60px;
+  line-height: 60px; /* Ajustar para centrar verticalmente */
   background: #25d366;
   color: #FFF;
-  border-radius: 50px;
+  border-radius: 60px;
   text-align: center;
-  font-size: 30px; /* Ajustar tamaño de fuente para centrar el icono */
-  box-shadow: 0px 1px 10px rgba(255, 182, 0, 0);
+  font-size: 35px; /* Ajustar tamaño de fuente para centrar el icono */
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
   z-index: 100;
   transition: all 300ms ease;
+  position: relative;
 }
+
 .btn-wsp:hover {
   background: #20ba5a;
 }
+
+.tooltip-text {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  bottom: 30px; /* Posición del tooltip */
+  right: 60px; /* Ajusta la posición del tooltip */
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.btn-wsp-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .btn-wsp {
-      width: 50px;
-      height: 50px;
-      line-height: 50px; /* Ajustar para centrar verticalmente */
-      font-size: 35px; /* Aumentar tamaño de fuente para icono más grande */
+    width: 50px;
+    height: 50px;
+    line-height: 50px; /* Ajustar para centrar verticalmente */
+    font-size: 35px; /* Aumentar tamaño de fuente para icono más grande */
   }
+}
+
+/* Facebook */
+.social-icon-facebook:hover i {
+  color: #1877f2; /* Color original del logo de Facebook */
+}
+
+/* Instagram */
+.social-icon-instagram:hover i {
+  color: #bc2a8d; /* Color original del logo de Instagram */
+}
+
+/* TikTok */
+.social-icon-tiktok:hover i {
+  color: #ffffff; /* Color original del logo de TikTok */
+}
+
+/* WhatsApp */
+.social-icon-whatsapp:hover i {
+  color: #128C7E; /* Color original del logo de WhatsApp */
+}
+
+.social-icon i {
+  color: #000000; /* Color negro por defecto */
+  transition: color 0.3s ease; /* Suaviza la transición del color */
+}
+
+/* Facebook */
+.social-icon-facebook:hover i,
+.social-icon-facebook:hover .social-icon i {
+  color: #1877f2; /* Color original del logo de Facebook */
+}
+
+/* Instagram */
+.social-icon-instagram:hover i,
+.social-icon-instagram:hover .social-icon i {
+  color: #bc2a8d; /* Color original del logo de Instagram */
+}
+
+/* TikTok */
+.social-icon-tiktok:hover i,
+.social-icon-tiktok:hover .social-icon i {
+  color: #ff3b5c; /* Color original del logo de TikTok */
+}
+
+/* WhatsApp */
+.social-icon-whatsapp:hover i,
+.social-icon-whatsapp:hover .social-icon i {
+  color: #128C7E; /* Color original del logo de WhatsApp */
 }
