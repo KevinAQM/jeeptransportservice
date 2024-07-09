@@ -1751,7 +1751,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 /* Service box bg */
 .ts-service-box-bg {
-  background: #252525;
+  background: #272d33;
   color: #fff;
   padding: 30px;
 }
@@ -2150,6 +2150,8 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   font-weight: 700;
   padding: 13px 15px;
   padding-bottom: 10px;
+  background-color: #272d33;
+  color: #ffffff;
 }
 
 .accordion-group .card-header .btn:before {
@@ -2629,7 +2631,7 @@ img.testimonial-thumb {
 .banner-title {
   color: #fff;
   text-transform: uppercase;
-  font-size: 58px;
+  font-size: 40px;
   font-weight: 900;
 }
 
@@ -2647,7 +2649,7 @@ img.testimonial-thumb {
 
 .banner-text {
   position: absolute;
-  top: 60%;
+  top: 57%;
   left: 0;
   right: 0;
   max-width: 1170px;
@@ -2685,6 +2687,7 @@ img.testimonial-thumb {
 /* Slider pages */
 .page-slider .carousel-control {
   position: absolute;
+  height: 500px;
   top: 50%;
   z-index: 5;
   display: inline-block;
@@ -3411,19 +3414,20 @@ label {
 }
 
 .sidebar ul.service-menu li a {
-  background-color: #f4f4f4;
+  background-color: #272d33;
   padding: 15px 20px;
   border: 0;
   margin-bottom: 8px;
   position: relative;
   transition: 400ms;
   display: block;
+  color: white;
 }
 
 .sidebar ul.service-menu li.active a,
 .sidebar ul.service-menu li:hover a {
-  background: #ffb600;
-  color: #fff;
+  background: #272d33;
+  color: #ffb600;
   cursor: pointer;
 }
 
