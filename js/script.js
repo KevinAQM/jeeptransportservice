@@ -248,7 +248,7 @@ jQuery(function ($) {
 		function mediaPopup() {
 			$('.gallery-popup').colorbox({
 				rel: 'gallery-popup',
-				transition: 'slideshow',
+				transition: '',
 				innerHeight: '500'
 			});
 			$('.popup').colorbox({
