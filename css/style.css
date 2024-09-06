@@ -298,7 +298,7 @@ a:focus {
   font-weight: 900;
   font-size: 36px;
   line-height: 46px;
-  margin: 0 0 30px;
+  margin: 0 0 10px;
   color: #212121;
 }
 
@@ -537,14 +537,14 @@ a[href^=tel] {
 }
 
 .btn-dark {
-  background: #23282d;
+  background: #252525;
 }
 
 .btn-primary:hover,
 .btn-dark:hover,
 .btn-white.btn-primary:hover {
-  background: #111;
-  color: #fff;
+  background: #252525;
+  color: #ffb600;
 }
 
 .btn-primary:hover:active, .btn-primary:hover:focus,
@@ -679,7 +679,7 @@ ul.top-info li p.info-text {
 
 .header-one,
 .header-one .site-navigation {
-  background: #23282d;
+  background: #252525;
 }
 
 .header-one .navbar-collapse {
@@ -3652,3 +3652,32 @@ label {
 }
 
 
+/* Cliens */
+/*--------------------------------------------------------------*/
+.cliens {
+  padding: 12px 0;
+  text-align: center;
+}
+
+.cliens img {
+  max-width: 40%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  filter: grayscale(100);
+}
+
+.cliens img:hover {
+  filter: none;
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .cliens img {
+    max-width: 40%;
+  }
+}
+
+.section-bg {
+  background-color: #fff;
+}
